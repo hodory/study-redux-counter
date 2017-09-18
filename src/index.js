@@ -5,7 +5,7 @@ import App from './containers/App';
 import registerServiceWorker from './registerServiceWorker';
 //Redux 관련 불러오기
 import { createStore } from 'redux';
-import reducers from './reducers';
+import reducers from './modules';
 import { Provider } from 'react-redux';
 
 //스토어 생성
